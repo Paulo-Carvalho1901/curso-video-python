@@ -19,3 +19,6 @@ while True:
     if 0 <= num <= 20:
         break
     print('Tente novamente. ', end='')
+
+# número por extenso
+print(f'Você digitou um número {count[num]}')
