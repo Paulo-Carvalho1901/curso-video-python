@@ -8,10 +8,12 @@ a) qual é o total gasto
 b) quantos produtos custam mais de R$1000
 c) qual é o nome do produto mais barato
 """
+total_compra = 0
 while True:
     produto = str(input('Digite o nome do produto:'))
     preco = float(input('Digite seu preço: '))
-
+    # total da compra
+    total_compra += preco
     
 
 
@@ -20,5 +22,5 @@ while True:
         resp = str(input('Deseja continuar? [S/N]')).strip().upper()[0]
     if resp == 'N':
         break
-
 print('Fim do programa')
+print(f'O total do dos gastos foram R${total_compra} reais')
