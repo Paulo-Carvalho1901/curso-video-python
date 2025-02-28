@@ -38,5 +38,9 @@ a = (2, 5, 4)
 b = (5, 8, 1, 2)
 c = b + a
 # print(c.count(9))
-print(c)
-print(c.index(8))
+# print(c)
+# print(c.index(8))
+
+pessoa = ('Gustavo', 35, 'M', 98.88)
+del(pessoa)
+print(pessoa)
