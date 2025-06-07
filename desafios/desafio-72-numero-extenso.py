@@ -11,7 +11,7 @@ seu programa deverá ler números pelo teclado
 
 # inserindo uma tupla
 cont = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nova', 
-         'dez', 'onze', 'doze', 'treze', 'catorze', 'quinze', 'dezesete', 'dezoito', 'dezenove', 'vinte')
+         'dez', 'onze', 'doze', 'treze', 'catorze', 'quinze', 'dezesete', 'desessete', 'dezoito', 'dezenove', 'vinte')
 
 # solicitando o números ao usuario e criando a condição de parada
 while True:
