@@ -10,15 +10,13 @@ seu programa deverá ler números pelo teclado
 """
 
 # inserindo uma tupla
-count = ('zero', 'un', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nova', 
+cont = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nova', 
          'dez', 'onze', 'doze', 'treze', 'catorze', 'quinze', 'dezesete', 'dezoito', 'dezenove', 'vinte')
 
 # solicitando o números ao usuario e criando a condição de parada
 while True:
-    num = int(input('Digite um número entre 0 e 20: '))
-    if 0 <= num <= 20:
+    numero = int(input('Digite um número entre 0 e 20: '))
+    if 0 <= numero <= 20:
         break
-    print('Tente novamente. ', end='')
-
-# número por extenso
-print(f'Você digitou um número {count[num]}')
+    print('Tente novamente. ', end=' ')
+print(f'Você digitou um número {cont[numero]}')
