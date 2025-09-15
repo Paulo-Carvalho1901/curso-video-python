@@ -39,11 +39,13 @@ lanche = ('Hambúrgue', 'Suco', 'Pizza', 'Pudim', 'Batata Frita')
 # print(sorted(lanche))
 
 a = (2, 5, 4)
-b = (5, 8, 1, 2)
-c = a + b
+b = (5, 2, 1, 2)
+c = b + a
 
 print(c)
-print(c.index(2))
+print(len(c))
+print(c.count(2)) # contar os itens
+print(c.index(2)) # index utilizando para ver a posição da tupla
 
 pessoa = ('Paulo', 36, 'M', 92.80)
 
