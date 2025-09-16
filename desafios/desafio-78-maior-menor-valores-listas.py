@@ -24,5 +24,10 @@ for count in range(0, 5):
         if listas[count] > maior:
             maior = listas[count]
         if listas[count] < menor:
-            menor = listas[count]  
+            menor = listas[count]
+            
 print('=-=' * 30)
+
+print(f'Você digitou os valores {listas}')
+print(f'O meior valor digitado foi {maior}')
+print(f'O menor valor digitado foi {menor}')
