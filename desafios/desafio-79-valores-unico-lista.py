@@ -23,3 +23,6 @@ while True:
     r = str(input('Deseja continuar? [S/N]: '))
     if r in 'Nn':
         break
+print('=-' * 30)
+numeros.sort() # ordenando numeros em forma crescente
+print(f'Você digitou os valores {numeros}')
