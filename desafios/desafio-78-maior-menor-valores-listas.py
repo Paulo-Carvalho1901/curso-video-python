@@ -8,9 +8,10 @@ respectivas posições na lista
 
 """
 
-listas = []
+listas = [] 
 
-for count in range(1, 6):
-    listas.append(int(input('Insira um número: ')))
+for count in range(0, 5):
+    listas.append(int(input(f'Digite um valor para a posiççao {count}: ')))
 
-print(listas)
+print('=-=' * 30)
+print(f'Você digitou os valores {listas}')
