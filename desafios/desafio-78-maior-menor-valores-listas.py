@@ -32,3 +32,6 @@ for indice, valor in enumerate(listas):
         print(f'{indice}... ', end='')
 print()
 print(f'O menor valor digitado foi {menor} nas posições ', end='')
+for indice, valor in enumerate(listas):
+    if valor == menor:
+        print(f'{indice}... ', end='')
