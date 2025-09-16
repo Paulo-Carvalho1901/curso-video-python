@@ -16,7 +16,6 @@ menor = 0
 
 for count in range(0, 5):
     listas.append(int(input(f'Digite um valor para a posiççao {count}: ')))
-
     # criado condição para verificar maior e menor valor
     if count == 0:
         maior = menor = listas[count]
@@ -25,9 +24,11 @@ for count in range(0, 5):
             maior = listas[count]
         if listas[count] < menor:
             menor = listas[count]
-            
 print('=-=' * 30)
-
 print(f'Você digitou os valores {listas}')
-print(f'O meior valor digitado foi {maior}')
-print(f'O menor valor digitado foi {menor}')
+print(f'O meior valor digitado foi {maior} nas posições ', end='')
+for indice, valor in enumerate(listas):
+    if valor == maior:
+        print(f'{indice}... ', end='')
+print()
+print(f'O menor valor digitado foi {menor} nas posições ', end='')
