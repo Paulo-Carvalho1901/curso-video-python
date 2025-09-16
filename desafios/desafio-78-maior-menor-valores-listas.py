@@ -10,6 +10,10 @@ respectivas posições na lista
 
 listas = [] 
 
+# criando variaveis para armazenar maiores e menores valores
+maior = 0
+menor = 0
+
 for count in range(0, 5):
     listas.append(int(input(f'Digite um valor para a posiççao {count}: ')))
 
