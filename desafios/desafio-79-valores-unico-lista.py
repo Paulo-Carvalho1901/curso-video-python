@@ -19,4 +19,7 @@ while True:
         print('Número adicionado com sucesso!')
     else:
         print('Número duplicado, não vou adicionar!')
-    
+    # Condição que testa a saida do usuario do programa!
+    r = str(input('Deseja continuar? [S/N]: '))
+    if r in 'Nn':
+        break
