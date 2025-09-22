@@ -15,11 +15,11 @@ C) Se o valor 5 foi digitada e está ou não na lista
 numeros = []
 
 while True:
-    n = int(input('Digite o valor: '))
-    if n not in numeros:
-        numeros.append(n)
-        print('Não adionado com sucesso')
+        numeros.append(int(input('Digite um valor: ')))
         pergunta = str(input('Deseja continuar? [S/N]: '))
         if pergunta in 'Nn':
             break
-print(numeros)
+print('=-' * 30)
+print(f'Você digitou {len(numeros)} elementos')
+numeros.sort(reverse=True)
+print(f'A lista em ordem decrescente são {numeros}')
