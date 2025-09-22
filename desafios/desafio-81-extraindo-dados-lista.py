@@ -23,3 +23,7 @@ print('=-' * 30)
 print(f'Você digitou {len(numeros)} elementos')
 numeros.sort(reverse=True)
 print(f'A lista em ordem decrescente são {numeros}')
+if 5 in numeros:
+    print('Números 5 está na lista.')
+else:
+    print('Números 5 não esta na lista.')
