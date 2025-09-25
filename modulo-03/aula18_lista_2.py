@@ -24,3 +24,7 @@ grupo_pessoas = [['Andreia', 19], ['Davu', 10], ['Paulo', 11], ['Rosa', 22]]
 
 galera = []
 dados = list()
+
+# solicitando dados ao usuario com for
+for c in range(0, 3):
+    ...
