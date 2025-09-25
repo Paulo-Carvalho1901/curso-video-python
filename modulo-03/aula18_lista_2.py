@@ -21,3 +21,6 @@ grupo_pessoas = [['Andreia', 19], ['Davu', 10], ['Paulo', 11], ['Rosa', 22]]
 
 
 # criando duas lista e pedindo ao usuario que insira dados na mesma.
+
+galera = []
+dados = list()
