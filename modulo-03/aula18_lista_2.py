@@ -16,5 +16,8 @@ print(galera)
 grupo_pessoas = [['Andreia', 19], ['Davu', 10], ['Paulo', 11], ['Rosa', 22]]
 # print(grupo_pessoas[0][0])
 # print(grupo_pessoas[1][0])
-for pessoa in grupo_pessoas:
-    print(f'{pessoa[0]} tem {pessoa[1]} anos de idade.')
+# for pessoa in grupo_pessoas:
+#     print(f'{pessoa[0]} tem {pessoa[1]} anos de idade.')
+
+
+# criando duas lista e pedindo ao usuario que insira dados na mesma.
