@@ -28,3 +28,5 @@ dados = list()
 # solicitando dados ao usuario com for
 for c in range(0, 3):
     dados.append(str(input('Nome: ')))
+    dados.append(int(input('Idade: ')))
+    
