@@ -15,4 +15,5 @@ for c in range(1, 8):
     else:
         num[1].append(valor)
 print('-=' * 30)
-print(f'Todos os vaLores {num}')
+print(f'Todos os valores digitado pares são: {num[0]}')
+print(f'Todos os valores digitado ímpares são: {num[1]}')
